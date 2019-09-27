@@ -1,0 +1,118 @@
+.main-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  background: rgb(66, 64, 68);
+  margin: 0 auto;
+  height: 100%;
+}
+
+.main-body .form-search,
+.feeds {
+  width: 85%;
+}
+.main-body .form-search form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-body .form-search form textarea::placeholder {
+  color: #999999;
+  text-align: center;
+  padding-top: 60px;
+}
+.main-body .form-search form h1 {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 20px;
+}
+.main-body .form-search form input {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  border: 1px solid #2fe6b2;
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px;
+}
+.main-body .form-search form input::placeholder {
+  color: #999999;
+  text-align: center;
+}
+.main-body .form-search form textarea {
+  margin-top: 20px;
+  border: 1px solid #2fe6b2;
+  border-radius: 5px;
+  width: 100%;
+  color: #fff;
+  background: rgb(107, 107, 107);
+}
+.main-body .form-search form button {
+  width: 100%;
+  color: rgb(66, 64, 68);
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.main-body .form-search form button:hover {
+  color: #fff;
+  background: #2fe6b2;
+}
+.feeds #theFeeds {
+  color: #999999;
+  font-size: 16px;
+  margin-top: 20px;
+  border-top: 1px solid #2fe6b2;
+}
+.feeds .user-feed {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+.feeds .user-feed li {
+  padding: 10px;
+  color: #5c5252;
+  border-radius: 5px;
+  background: #fff;
+  margin-top: 20px;
+  /* overflow: auto; */
+}
+.Emptymessage {
+  color: #999999;
+  font-size: 16px;
+}
+.feeds .user-feed h1 {
+  font-size: 16px;
+}
+.feeds .user-feed p {
+  margin-top: 20px;
+  font-size: 15px;
+}
+.feeds .user-feed .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.feeds .user-feed button {
+  width: 45%;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+}
+.feeds .user-feed button:hover img {
+  transform: translateY(-5px);
+  transition: all 0.2s;
+}
